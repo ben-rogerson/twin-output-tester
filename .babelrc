@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-typescript",
+      { "allExtensions": true, "isTSX": true, "allowNamespaces": true }
+    ]
+  ],
+  "plugins": ["babel-plugin-macros"]
+}
