@@ -1,5 +1,5 @@
 {
-  "name": "typescript-test",
+  "name": "twin-output-tester",
   "scripts": {
     "start": "npm run dev",
     "dev": "nodemon --watch ~/Projects/twin.macro/macro.js --watch index.tsx --watch tailwind.config.js --watch babel.config.js --watch package.json -x \"npm run build:dev\" --delay .01",
